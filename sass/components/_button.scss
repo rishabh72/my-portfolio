@@ -1,0 +1,25 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.6rem;
+  }
+
+  &--blue {
+    border: 2px solid $color-primary;
+    color: $color-primary;
+    background-color: $color-grey-light-1;
+  }
+
+  &:hover {
+    background-color: $color-primary;
+    color: #fff;
+  }
+}

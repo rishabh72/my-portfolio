@@ -1,0 +1,10 @@
+.footer {
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  padding: 3rem;
+  color: #fff;
+  text-align: right;
+}

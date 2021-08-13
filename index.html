@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rishabh Soni</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__text-box">
+        <div>
+          <h1 class="title mb-small">Website & App Developer</h1>
+          <h2 class="subtitle">
+            I design and build beautiful user interfaces and I love what I do.
+          </h2>
+        </div>
+      </div>
+      <div>
+        <img
+          src="img/developer.svg"
+          alt="Developer Photo"
+          class="header__img"
+        />
+      </div>
+    </header>
+    <main>
+      <section class="about">
+        <div class="about__content">
+          <h2 class="title text-white mb-small">
+            Hi, I'm Rishabh. Nice to meet you.
+          </h2>
+          <p class="subtitle text-white is-thin">
+            I am passionate self taught full stack website and app developer. I
+            tend to make use of modern web technologies to build websites and
+            apps that look great, feel fantastic and function correctly.I am
+            especially focusing on Reactjs.
+          </p>
+        </div>
+      </section>
+      <section class="skills">
+        <h2 class="title mb-big">my skills</h2>
+        <div class="skills__logos">
+          <img class="skills__logo" src="img/react.svg" alt="react" />
+          <img class="skills__logo" src="img/javascript.svg" alt="javascript" />
+          <img class="skills__logo" src="img/html.svg" alt="html" />
+          <img class="skills__logo" src="img/css.svg" alt="css" />
+          <img class="skills__logo" src="img/mongodb.svg" alt="mongodb" />
+          <img class="skills__logo" src="img/nodejs.svg" alt="nodejs" />
+        </div>
+      </section>
+
+      <section class="projects">
+        <h2 class="title text-white mb-big">My Startup Projects</h2>
+
+        <div class="project">
+          <div class="project__content">
+            <h3 class="title-small mb-small">MarvelTask</h3>
+            <p class="subtitle mb-medium is-thin">
+              MarvelTask is online home service platform connecting homeowners
+              with the best home repair professionals in their city.
+            </p>
+          </div>
+
+          <a
+            href="https://play.google.com/store/apps/details?id=com.luciajane.comfort_task"
+            class="btn btn--blue"
+          >
+            learn more
+          </a>
+        </div>
+        <div class="project">
+          <div class="project__content">
+            <div class="title-small mb-small">MarvelTask Partner</div>
+            <p class="subtitle is-thin mb-medium">
+              MarvelTask Partner provides flexible work and broader service area
+              for service providers to earn limitless.
+            </p>
+          </div>
+
+          <a
+            href="https://play.google.com/store/apps/details?id=com.luciajane.comfort_task_workforce"
+            class="btn btn--blue"
+          >
+            learn more
+          </a>
+        </div>
+      </section>
+      <section class="contact">
+        <h2 class="title mb-medium text-center">Get in Touch</h2>
+        <div class="container">
+          <form action="https://submit-form.com/3FTPlVSH" class="form">
+            <div class="form__row">
+              <div class="form__group">
+                <label for="name" class="form__label">Name</label>
+                <input
+                  required
+                  id="name"
+                  type="text"
+                  class="form__input"
+                  placeholder="John Smith"
+                  name="name"
+                />
+              </div>
+              <div class="form__group">
+                <label for="email" class="form__label">Email</label>
+                <input
+                  required
+                  id="email"
+                  type="email"
+                  class="form__input"
+                  placeholder="example@gmail.com"
+                  name="email"
+                />
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="message" class="form__label">Message</label>
+              <textarea
+                required
+                class="form__input"
+                id="message"
+                rows="8"
+                placeholder="hey there!"
+                name="message"
+              ></textarea>
+            </div>
+            <div class="form__group text-right">
+              <button type="submit" class="btn btn--blue">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="subtitle">Made with love by me</p>
+    </footer>
+  </body>
+</html>

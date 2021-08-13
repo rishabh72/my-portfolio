@@ -1,0 +1,15 @@
+.project {
+  padding: 5rem;
+  border-radius: 3px;
+  width: 60%;
+  background-color: $color-grey-light-1;
+  margin: 0 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    width: 80%;
+  }
+}
