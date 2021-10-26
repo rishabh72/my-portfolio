@@ -7,12 +7,17 @@
   align-items: center;
   padding-bottom: 10rem;
 
+  &__title {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+
   &__text-box {
     flex: 0 0 40%;
     display: flex;
     align-items: center;
 
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: $bp-medium) {
       text-align: center;
       padding: 0 1rem;
     }
@@ -22,7 +27,7 @@
     height: 30rem;
   }
 
-  @media only screen and (max-width: $bp-small) {
+  @media only screen and (max-width: $bp-medium) {
     flex-direction: column;
     justify-content: stretch;
     padding: 0;
